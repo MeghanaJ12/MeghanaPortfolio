@@ -1,76 +1,219 @@
 *{
   box-sizing: border-box;
-  margin: 10px;
-  background-color: rgb(55, 54, 54);
-  color:white;
-  line-height: 1.50em;
-  padding-left: 30px;
-  padding-right:30px;
+  margin: 0 auto;
+  /* font-size: 1.15em; */
+    
+  
+  /* padding-left: 30px; */
+  /* padding-right:30px; */
+  font-size: 26px;
+  /* font-family: sans-serif; */
+  /* margin-left:50px; */
+  
+
 }
-nav,div{
+
+.navFlex{
+  display: flex;
+  justify-content: center;
+   background-color:#333;
+  padding:10px;
+  
+  
+ 
+}
+.navFixed{
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+ 
+  top:0;
+  
+  padding-bottom:0;
+} */
+
+nav a{
+  color:white;
+  text-align: center;
+  padding:20px;
+  
+}
+nav a:hover{
+  background-color: white;
+  color: #333;
+}
+body{
+  padding-left: 20px;
+  marging-left:10px;
+  background-color:rgb(29, 31, 31);
+  color: #8a8a8a;
+  font-family: Lato,
+  Helvetica,
+  Arial,
+  sans-serif;
+  line-height: 1.7em;
+  word-spacing: .02em;
+  font-weight: 400;
+}
+header{
+  text-align: center;
+}
+
+
+div,section{
  
   padding-bottom: 40px;
   margin: 10px;
 }
-h1,h2,h3{
-  /* padding-top: 20px;
-  /* text-align: center; */
-  /* padding-bottom:30px; */ 
+
+h2,h3{
+   padding-top: 20px; 
+  
+  padding-bottom:30px;
 }
+h1{
+  padding-top: 50px;
+  color: #cacaca;
+    font-size: 2.0em;
+    line-height: 1.45em;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: .1em;
+    width: 100%;
+    text-shadow: 2px 2px 0 rgba(0,0,0,.15);
+    padding-bottom: 40px;
+    
+}
+h2{
+  font-size: 2em;
+  line-height: 1.35em;
+  font-weight: 600;
+  color: #cacaca;
+  
+  letter-spacing: -.045em;
+  
+}
+
+
+
+
+
+
+
 #portfolio{
   
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  
+}
+
+.projectImg{
+  width: 300px;
+  
+}
+hr{
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  
 }
 .Image{
 
   height:400px;
-  width:33.33%;
+  
   border-top:20px;
-  padding-top:20px;
+  padding-top:40px;
+  margin-top: 20px;
+  /* width:20%;wid */
+  /* width: 200px; */
+  
   
 
   border:1px solid black;
 
   background-color: rgb(185, 180, 180);
-
+  color:purple;
+  background : url("/Users/vaibhavjoshi/Documents/Meghana/Thinkful-nw-1/DisneyQuizAppMeghana/backgroundImg.jpg ");
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 .sampleImage{
-  width:80%;
+  width:60%;
+  margin-top:40px;
 }
+
 ul{
   text-decoration: none;
 }
-button{
-  background-color:rgba(255, 111, 0, 0.906);
-  height:80px;
-  width:200px;
-  font-size: 20px;
+
+
+a{
+  text-decoration: none;
+  
+}
+::selection {
+  background-color: #98d4ff;
+  color: #FFF;
+}
+
+.button {
+  /* display: block; */
+  width: 200px;
+  /* height: 80px; */
+  background: rgba(212, 207, 202, 0.212);
+  /* margin: 30px; */
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+  margin-right:50px;
+  margin-left:0;
+  
+
+}
+.links{
+  
+  display:flex;
+  /* border:1px solid green; */
+  padding:0px;
+  margin:0;
+  align-content: center;
   
 }
 main{
-  padding-bottom: 40px;
+ 
 }
-button:hover,.projectImg:hover{
+
+
+.projectImg:hover{
+  background: rgb(224, 217, 217);
+  cursor:pointer;
+  width: 33.33%;
+  color:rgb(9, 92, 148);
+  
+}
+.button:hover{
   cursor:pointer;
 
   background-color:white;
-  color: rgba(255, 111, 0, 0.906);
+  color: black;
 }
 
 
-h2{
-  padding: 30px;
-}
+
 .projectImg{
-  text-align: center;
+ width:400px;
+
 }
 
 
 
 
-background-color: rgb(185, 180, 180);
-}
+
 #ProjectInfo{
   padding-top:30px;
   /* text-align: center; */
@@ -81,4 +224,13 @@ background-color: rgb(185, 180, 180);
 }
 #contactInfo{
   text-align: left;
+}
+
+@media screen and (max-width:600px ){
+  nav,#portfolio{
+    flex-direction: column;
+  }
+}
+header{
+  margin-top: 100px;
 }
