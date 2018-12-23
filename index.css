@@ -36,7 +36,8 @@ header,h1{
 nav a{
   color:rgb(160, 94, 157);
   text-align: center;
-  padding:20px;
+  padding:10px;
+  
   
 }
 nav a:hover{
@@ -142,7 +143,7 @@ hr{
 
 }
 .sampleImage{
-  width:60%;
+  /* width:60%; */
   margin-top:40px;
 }
 
@@ -252,7 +253,7 @@ nav{
 
   .button {
     padding: 2px;
-    overflow: auto;
+    /* overflow: auto; */
   }
 
   .sampleImage {
@@ -283,6 +284,10 @@ header{
   }
   .Image{
     width:100%;
+  }
+  .sampleImage {
+    padding-right:0;
+    margin-right:0;
   }
 
 }
