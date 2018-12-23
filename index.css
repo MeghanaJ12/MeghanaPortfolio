@@ -136,7 +136,7 @@ hr{
 
   background-color: rgb(185, 180, 180);
   color:black;
-  background : url("/Users/vaibhavjoshi/Documents/Meghana/Thinkful-nw-1/DisneyQuizAppMeghana/backgroundImg.jpg ");
+  background : url("images/backgroundImg.jpg ");
   background-repeat: no-repeat;
   background-size: cover;
 
