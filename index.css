@@ -16,7 +16,7 @@ header,h1{
   background-color: lightseagreen
 }
 
-.navFlex{
+.navFlex,.navHidden{
   display: flex;
   justify-content: center;
    background-color:rgba(47, 49, 49,.3);
@@ -30,6 +30,9 @@ header,h1{
 }
 .navHidden{
   display: none;
+  left: 50%;
+  margin-left: -37.5%;
+  
 }
 
 
@@ -239,14 +242,16 @@ nav{
    .navHidden {
     display:flex;   
     cursor: pointer;   
-    margin:0,auto;
-    align-self:baseline;
+    margin-bottom: 80px;
+    margin-left:80px;
+    
+    
 
   } 
  .navFlex {
     display: none;
   } 
-   
+  
 
   
   

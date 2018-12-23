@@ -1,0 +1,135 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meghana Full Stack Dev</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+  </head>
+    
+  <body>
+
+            
+              
+
+            <nav class ="navFlex">
+                <a href="#bio">BIO</a>      
+                <a href ="#portfolio">Portfolio</a>
+                <a target ="#blank"href ="https://github.com/MeghanaJ12">GitHub</a>
+                <a href ="#">LinkedIn</a>
+                <a href ="#contactInfo">Contact</a>            
+            </nav>
+            <div class="navHidden">
+              <i class="fas fa-bars"></i>
+            </div>
+      
+        
+
+
+<header role="banner">
+        
+<div id="bio">
+          <h1>I'm Meghana from Atlanta GA.
+          I am a Full Stack Web developer.</h1>
+             
+        
+</header>
+
+<main role="main">
+  
+          <h2>Here is something about me</h2>
+      
+            <p>
+              I am  enrolled in Thinkful engineering Immersion program. I enjoy each and every aspect and love building websites from start to finish. I have skills in
+              HTML, CSS, javascript and jQuery.   
+            </p>
+            <p>
+                In my free time I enjoy traveling, reading books, and spending time with my family and our sweet Cavalier puppy.
+              </p>
+              <p>
+Please feel free to browse through my projects . And if you find something interesting or would like to connect, please feel free to<a href="mailto:joshimeg30@gmail.com"> email me.
+  </a>
+                </p>
+        </div>
+
+        <hr><br>
+
+
+          
+        <h2>Latest Work</h2>
+        <div id="portfolio">
+        
+          <a class="projectImg Image project3" href="#ProjectInfo">Disney Quiz App <hr>
+             Used Javascript,HTML5,CSS3 and jQuery. <hr>Click to find out more</a>
+          <a class="projectImg Image project3" href="#ProjectInfo">Disney Quiz App</a>
+          <a class="projectImg Image project3" href="#ProjectInfo">Disney Quiz App</a>
+          <a class="projectImg Image project3"href="#ProjectInfo">Disney Quiz App</a>
+        </div>
+      
+        <div id="ProjectInfo">
+          <section> <br>
+          <h2>The Disney Quiz App</h2>
+        <h3>The Quiz app that tests your knowledge of Disney movies</h3>
+        <br>
+        <!-- <p> -->
+          
+            <!-- <a target="blank" href="https://meghanaj12.github.io/DisneyQuizApp-Meghana/">
+              <button> Visit the site </button>                                      -->
+            <!-- </a> -->
+            <!-- <br> -->
+        <!-- <a target="blank" href="https://github.com/MeghanaJ12/DisneyQuizApp-Meghana">
+          <button>View the Code</button> -->
+        <!-- </a> --> 
+        <!-- </p> -->
+        
+        <div class=" Image sampleImage">
+          <div class="links">
+          
+            <a class="button" target="blank" href="https://github.com/MeghanaJ12/DisneyQuizApp-Meghana">View Code
+          
+            </a>
+          
+            <a class="button" target="blank" href="https://meghanaj12.github.io/DisneyQuizApp-Meghana/"> Demo
+          
+            </a>
+          </div>
+
+        </div>
+        
+     
+          <h2>About This project</h2>
+          <hr><br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sint ex cum minus aliquid natus distinctio explicabo
+            ipsam quidem fugit, porro impedit laudantium molestiae possimus, voluptates illum nulla nesciunt. Pariatur?</p><br>
+          <h2>Technical Sheet</h2>
+          <p>Code Technologies I got involved with while working on this project</p><br>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>jQuery</li>
+          </ul>
+        
+        </div>
+
+        
+
+        </div> <br>
+        
+          <footer id="contactInfo">
+            <h2>Contact:</h2>
+        <p> Want to get in touch or talk about a project?</p>
+<p>Feel free to<a href="mailto:joshimeg30@gmail.com"> email me.
+  </a></p>
+            <p>cell:111-222-3333</p>
+          </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+  </body>
+</html>
