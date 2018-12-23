@@ -6,31 +6,32 @@
   
   /* padding-left: 30px; */
   /* padding-right:30px; */
-  font-size: 24px;
+  font-size: 28px;
   /* font-family: sans-serif; */
   /* margin-left:50px; */
   
 
 }
+header,h1{
+  background-color: lightseagreen
+}
 
 .navFlex{
   display: flex;
   justify-content: center;
-   background-color:rgb(32, 31, 31);
-  padding:10px;
+   background-color:rgba(47, 49, 49,.3);
+  padding:3px;
+  margin-bottom: 10px;
+  position:fixed;
   
+  top:0;
   
  
 }
-.navFixed{
-  position: fixed;
-  width: 100%;
-  box-sizing: border-box;
- 
-  top:0;
-  
-  padding-bottom:0;
-} 
+.navHidden{
+  display: none;
+}
+
 
 nav a{
   color:rgb(160, 94, 157);
@@ -55,8 +56,13 @@ body{
   line-height: 1.7em;
   word-spacing: .02em;
   font-weight: 600;
+  font-size: 24px;
 }
-header,footer,nav{
+header{
+  margin-top:150px;
+  /* padding-top:100px; */
+}
+header,footer{
   text-align: center;
   
 }
@@ -74,7 +80,7 @@ h2,h3{
   padding-bottom:30px;
 }
 h1{
-  padding-top: 50px;
+  padding-top: 100px;
   color: #cacaca;
     font-size: 2.0em;
     line-height: 1.45em;
@@ -96,24 +102,15 @@ h2{
   
 }
 
-
-
-
-
-
-
-
 #portfolio{
   
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
-  
-  
+   
 }
 
 .projectImg{
-  width: 300px;
+  width: 70%;
   
 }
 hr{
@@ -138,7 +135,7 @@ hr{
   border:1px solid black;
 
   background-color: rgb(185, 180, 180);
-  color:purple;
+  color:black;
   background : url("/Users/vaibhavjoshi/Documents/Meghana/Thinkful-nw-1/DisneyQuizAppMeghana/backgroundImg.jpg ");
   background-repeat: no-repeat;
   background-size: cover;
@@ -167,7 +164,7 @@ a{
   /* display: block; */
   width: 200px;
   /* height: 80px; */
-  background: rgba(17, 17, 16, 0.212);
+  background: rgb(104, 104, 96);
   /* margin: 30px; */
   padding: 5px;
   text-align: center;
@@ -186,9 +183,6 @@ a{
   margin:0;
   align-content: center;
   
-}
-main{
- 
 }
 
 
@@ -213,9 +207,9 @@ main{
 
 }
 
-
-
-
+nav{
+  display:flex;
+}
 
 #ProjectInfo{
   padding-top:30px;
@@ -229,25 +223,66 @@ main{
   text-align: left;
 }
 
-@media screen and (max-width:600px ){
-  nav,#portfolio{
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  
+  .navFlex {
     flex-direction: column;
   }
+  
+   .navHidden {
+    display:flex;   
+    cursor: pointer;   
+    margin:0,auto;
+    align-self:baseline;
+
+  } 
+ .navFlex {
+    display: none;
+  } 
+   
+
+  
+  
+
+  .button {
+    padding: 2px;
+    overflow: auto;
+  }
+
+  .sampleImage {
+    margin-left: 0;
+  }
 }
+
+@media screen and (max-width:600px){
+  #portfolio{
+    flex-direction: column;
+  
+}
+
 header{
   margin-top: 100px;
 }
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 20px;
-    padding-left:10%;
-    padding-right:10%;
-  }
 }
-@media only screen and (max-width: 320px){
-  body{
+
+
+
+
+@media only screen and (max-width: 300px){
+  body {
     font-size: 18px;
     padding-left:5%;
     padding-right:5%;
+    
   }
+  .Image{
+    width:100%;
+  }
+
 }
